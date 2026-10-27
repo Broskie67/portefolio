@@ -1,0 +1,17 @@
+:root {
+  --fond: #0f1115;
+  --surface: #171a21;
+  --bordure: #262a33;
+  --texte: #e6e8ec;
+  --texte-doux: #b4bac4;
+  --accent: #5eead4;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: var(--fond);
+  color: var(--texte);
+  font-family: 'Geist', system-ui, sans-serif;
+}
