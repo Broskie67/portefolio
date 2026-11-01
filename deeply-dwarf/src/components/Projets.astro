@@ -1,0 +1,13 @@
+---
+import { projets } from '../data/projets';
+import GrilleProjets from './GrilleProjets';
+import '../styles/projets.css';
+---
+
+<section id="projets" class="section">
+	<div class="entete-section">
+		<span class="numero">01 — Projets</span>
+		<h2>Ce que j'ai construit</h2>
+	</div>
+	<GrilleProjets projets={projets} client:visible />
+</section>
